@@ -1,0 +1,104 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+h1 {
+    background: -webkit-linear-gradient(#F5F7FA, #004ec4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* --- HOME MAIN ---- */
+.main {
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+}
+
+.main-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.title {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title p {
+    font-size: 4.5rem;
+    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.desc {
+    font-size: 2rem;
+    background: -webkit-linear-gradient(#f7f1f1, #d3f09e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.imageAboutPage {
+    width: 100%;
+}
+
+
+/* --- PROJECTS ---- */
+.card-body {
+    background-color: aliceblue;
+}
+
+.card:hover {
+    transform: translateY(-1rem);
+
+}
+
+.card-body:hover {
+    background-color: #d2e2fa;
+}
+
+.card-title {
+    text-align: center;
+}
+
+
+
+/* --- Contact ---- */
+#contact {
+    padding-bottom: 1rem;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+.fa-linkedin {
+    color: #0562ee;
+}
+
+.fa-github {
+    color: #000000;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+    transform: translateY(-0.2rem);
+}
+
+
+
+/* footer styling */
+#footer {
+    text-align: center;
+}
