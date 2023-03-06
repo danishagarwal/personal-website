@@ -7,6 +7,7 @@ h1 {
     background: -webkit-linear-gradient(#F5F7FA, #004ec4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 /* --- HOME MAIN ---- */
@@ -28,6 +29,7 @@ h1 {
     font-size: 3rem;
     background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -35,6 +37,7 @@ h1 {
     font-size: 4.5rem;
     background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -42,6 +45,7 @@ h1 {
     font-size: 2rem;
     background: -webkit-linear-gradient(#f7f1f1, #d3f09e);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
