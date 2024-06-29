@@ -1,149 +1,157 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-  background-color: black;
+    background-color: black;
 }
 
 h1 {
-  background: -webkit-linear-gradient(#f5f7fa, #004ec4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+    background: -webkit-linear-gradient(#F5F7FA, #004ec4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 /* --- HOME MAIN ---- */
 .main {
-  height: 100vh;
-  background-color: rgb(34, 34, 34);
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
 }
 
 .main-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  outline: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
 }
 
 .title {
-  font-size: 3rem;
-  background: -webkit-linear-gradient(#f5f7fa, #79aaf5);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  outline: none;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    outline: none;
 }
 
 .title p {
-  font-size: 4.5rem;
-  background: -webkit-linear-gradient(#f5f7fa, #79aaf5);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  outline: none;
+    font-size: 4.5rem;
+    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    outline: none;
 }
 
 .desc {
-  font-size: 2rem;
-  background: -webkit-linear-gradient(#f7f1f1, #d3f09e);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  outline: none;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(#f7f1f1, #d3f09e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    outline: none;
 }
 
+
 .imageAboutPage {
-  width: 100%;
+    width: 100%;
 }
+
 
 /* --- PROJECTS ---- */
 .card-body {
-  background-color: aliceblue;
+    background-color: aliceblue;
 }
 
 .card:hover {
-  transform: translateY(-1rem);
+    transform: translateY(-1rem);
+
 }
 
 .card-body:hover {
-  background-color: #d2e2fa;
+    background-color: #d2e2fa;
 }
 
 .card-title {
-  text-align: center;
+    text-align: center;
 }
 
 /* --- Contact ---- */
 #contact {
-  padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .social-icons {
-  font-size: 36px;
-  cursor: pointer;
+    font-size: 36px;
+    cursor: pointer;
 }
 
+
 .fa-linkedin {
-  color: #0562ee;
+    color: #0562ee;
 }
 
 .fa-github {
-  color: #000000;
+    color: #000000;
 }
 
 .fa-linkedin:hover,
 .fa-github:hover,
 .fa-envelope:hover {
-  transform: translateY(-0.2rem);
+    transform: translateY(-0.2rem);
 }
+
+
 
 /* footer styling */
 #footer {
-  text-align: center;
+    text-align: center;
 }
 
-/* Light Dark Mode */
+/* Light Dark Mode */ 
 
 body.light-mode {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
 }
 
 body.dark-mode {
-  background-color: #121212;
-  color: white;
+    background-color: #121212;
+    color: white;
 }
 
 .navbar-dark.navbarScroll.dark-mode {
-  background-color: black;
+    background-color: black;
 }
 
 .card.dark-mode .card-body {
-  background-color: #444; /* Dark background for card body */
-  color: white;
+    background-color: #444; /* Dark background for card body */
+    color: white;       
 }
 
 .card.light-mode .card-body {
-  background-color: aliceblue; /* Light background for card body */
-  color: black;
+    background-color: aliceblue; /* Light background for card body */
+    color: black;
 }
 
+
 .btn-dark-mode {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
 }
 
 .btn-light-mode {
-  background-color: #444;
-  color: white;
+    background-color: #444;
+    color: white;
 }
 
-body.light-mode .social-icons a .fab,
-body.light-mode .social-icons a .fas {
-  color: black;
+body.light-mode .social-icons a .fa, 
+body.light-mode .social-icons a .fa {
+    color: black;
 }
 
-body.dark-mode .social-icons a .fab,
-body.dark-mode .social-icons a .fas {
-  color: white;
+body.dark-mode .social-icons a .fa, 
+body.dark-mode .social-icons a .fa {
+    color: white; 
 }
+
