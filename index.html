@@ -3,28 +3,29 @@
 
 <head>
     <title>Danish Agarwal</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-
 </head>
 
-<body>
+<body class="light-mode">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
         <div class="container">
             <a class="navbar-brand" href="">Danish</a>
+            <button id="darkModeToggle" class="btn btn-secondary ms-auto">☾</button>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
@@ -42,19 +43,19 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Danish_Agarwal's_Resume.pdf" download>Resume</a>
                     </li>
-                   
                 </ul>
-                
             </div>
         </div>
     </nav>
 
-    <!-- HOme section -->
+    <!-- Home section -->
     <section class="main" id="home">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-text">
-                    <h2 class="title">Hi, it's me <p>Danish!</p>
+                    <h2 class="title">
+                        Hi, it's me
+                        <p>Danish!</p>
                     </h2>
                     <p class="desc">I am a professional Software Developer.</p>
                 </div>
@@ -62,50 +63,57 @@
         </div>
     </section>
 
-    <!-- about section-->
+    <!-- About section -->
     <div class="dan">
         <section id="about">
             <div class="container mt-4 pt-4">
                 <h1 class="text-center">About Me</h1>
                 <div class="row mt-4">
                     <div class="col-lg-2">
-                        <img src="about.jpg" class="imageAboutPage" alt="">
+                        <img src="about.jpg" class="imageAboutPage" alt="" />
                     </div>
-
                     <div class="col-lg-8">
                         <div class="row mt-4">
                             <div class="col-md-10">
                                 <ul class="list-unstyled">
-                                    <h3 class="gradient-text">Danish Agarwal
-                                    </h3>
+                                    <h3 class="gradient-text">Danish Agarwal</h3>
                                     <p>Software Developer</p>
-
+                                </ul>
                             </div>
-                            </ul>
                         </div>
-                        <p> Hello, I am a highly skilled Software Developer with expertise in React, JavaScript, Python, and SQL. I hold a degree in IT engineering from D.Y. Patil University, where I achieved an impressive CGPA of 8.54. I am currently employed at TCS as a Systems Engineer
-                            <br/>
-                            Keeping up with the latest industry trends and advancements is not only a personal interest but also a professional priority for me. I thrive on the excitement of learning new technologies and eagerly embrace any opportunity to challenge myself in my career. With a natural aptitude for quick learning, I am confident in my ability to adapt and excel in a fast-paced, dynamic environment. 
+                        <p>
+                            Hello, I am a highly skilled Software Developer with expertise
+                            in React, JavaScript, Python, and SQL. I hold a degree in IT
+                            engineering from D.Y. Patil University, where I achieved an
+                            impressive CGPA of 8.54. I am currently employed at TCS as a
+                            Systems Engineer <br />
+                            Keeping up with the latest industry trends and advancements is
+                            not only a personal interest but also a professional priority
+                            for me. I thrive on the excitement of learning new technologies
+                            and eagerly embrace any opportunity to challenge myself in my
+                            career. With a natural aptitude for quick learning, I am
+                            confident in my ability to adapt and excel in a fast-paced,
+                            dynamic environment.
                         </p>
-
                     </div>
                 </div>
             </div>
         </section>
     </div>
 
-    <!-- portfolio section-->
+    <!-- Portfolio section -->
     <section id="portfolio">
         <div class="container mt-3">
             <h1 class="text-center">Projects</h1>
             <div class="row">
-
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
+                    <div class="card light-mode">
                         <div class="card-body">
                             <h4 class="card-title">NetflixGPT</h4>
-                            <p class="card-text">A Netflix clone with GPT integrated which help users search movies such as "Bollywood funny movies."
-                                .</p>
+                            <p class="card-text">
+                                A Netflix clone with GPT integrated which help users search
+                                movies such as "Bollywood funny movies."
+                            </p>
                             <div class="text-center">
                                 <a target="_blank" href="https://github.com/danishagarwal/Book-Sale-Web"
                                     class="fab fa-github btn btn-dark"></a>
@@ -113,13 +121,14 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card light-mode">
+                        <div class="card-body light-mode">
                             <h4 class="card-title">Dan's Food Town</h4>
-                            <p class="card-text">Swiggy like application created using own create-react-app, used Parcel
-                                instead of web-pack.</p>
+                            <p class="card-text">
+                                Swiggy like application created using own create-react-app,
+                                used Parcel instead of web-pack.
+                            </p>
                             <div class="text-center">
                                 <a target="_blank" href="https://github.com/danishagarwal/ReactJS/tree/master/Coding"
                                     class="fab fa-github btn btn-dark"></a>
@@ -127,13 +136,14 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
+                    <div class="card light-mode">
                         <div class="card-body">
                             <h4 class="card-title">Team Management</h4>
-                            <p class="card-text">Website designed to Create, Read, Update, Delete Teams from portal
-                                using Flask by admin.</p>
+                            <p class="card-text">
+                                Website designed to Create, Read, Update, Delete Teams from
+                                portal using Flask by admin.
+                            </p>
                             <div class="text-center">
                                 <a target="_blank" href="https://github.com/danishagarwal/Manage-Teams"
                                     class="fab fa-github btn btn-dark"></a>
@@ -142,15 +152,15 @@
                     </div>
                 </div>
             </div>
-            <br>
+            <br />
             <div class="row">
-
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
+                    <div class="card light-mode">
                         <div class="card-body">
                             <h4 class="card-title">Youtube</h4>
-                            <p class="card-text">Youtube clone app which uses debouncing search functionality. Redux to
-                                manage the state of sidebar.
+                            <p class="card-text">
+                                Youtube clone app which uses debouncing search functionality.
+                                Redux to manage the state of sidebar.
                             </p>
                             <div class="text-center">
                                 <a target="_blank" href="https://github.com/danishagarwal/Youtube"
@@ -160,10 +170,12 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
+                    <div class="card light-mode">
                         <div class="card-body">
                             <h4 class="card-title">NotesJS</h4>
-                            <p class="card-text">Notes application created using only JavaScript. Create, Delete Notes
+                            <p class="card-text">
+                                Notes application created using only JavaScript. Create,
+                                Delete Notes
                             </p>
                             <div class="text-center">
                                 <a target="_blank" href="https://github.com/danishagarwal/NotesJS"
@@ -172,12 +184,13 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
+                    <div class="card light-mode">
                         <div class="card-body">
                             <h4 class="card-title">Corona Cases</h4>
-                            <p class="card-text">Program to get the corona virus cases in any any country.
+                            <p class="card-text">
+                                Program to get the corona virus cases in any country.
+                            </p>
                             <div class="text-center">
                                 <a target="_blank" href="https://github.com/danishagarwal/Corona-Cases-Info"
                                     class="fab fa-github btn btn-dark"></a>
@@ -186,18 +199,18 @@
                     </div>
                 </div>
             </div>
-    </section>
-
-    <!-- contact section-->
-    <br>
-    <br>
-    <br>
-    <section id="contact">
-        <div class="container mt-2">
         </div>
-
     </section>
-    <!-- footer section-->
+
+    <!-- Contact section -->
+    <br />
+    <br />
+    <br />
+    <section id="contact">
+        <div class="container mt-2"></div>
+    </section>
+
+    <!-- Footer section -->
     <footer id="footer">
         <div class="container-fluid">
             <!-- social media icons -->
@@ -205,14 +218,12 @@
                 <h1>Contact me on</h1>
                 <a href="https://www.linkedin.com/in/danishagarwal/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/danishagarwal" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:danishagarwal9@gmail.com" target="_blank"><i style="color: black;"
-                        class="fas fa-envelope"></i></a>
+                <a href="mailto:danishagarwal9@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>
