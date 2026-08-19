@@ -1,7 +1,15 @@
-https://danishagarwal.github.io/personal-website/
+# Danish Agarwal
 
+Personal site: https://danishagarwal.github.io/personal-website/
 
-## Demo Phone
+## Local
 
-https://user-images.githubusercontent.com/81150631/223125062-d5cac31e-9c3c-4975-b39b-397d1decaa73.mp4
+    npm install
+    npm run dev
 
+## Build
+
+    npm run build
+    npm run preview
+
+GitHub Pages is deployed from `dist/` via `.github/workflows/pages.yml` on push to `main`. In the repo Settings → Pages, set Source to **GitHub Actions**.
