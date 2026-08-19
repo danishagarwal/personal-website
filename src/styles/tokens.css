@@ -1,0 +1,12 @@
+:root {
+  --ink: #0b0d10;
+  --cream: #ece8e1;
+  --mute: #9a958c;
+  --mute-2: #b8b3aa;
+  --line: #2a2d32;
+  --brass: #c9a227;
+  --serif: "Instrument Serif", Georgia, serif;
+  --sans: "DM Sans", system-ui, sans-serif;
+  --rail-width: 240px;
+  --space: 1.5rem;
+}
