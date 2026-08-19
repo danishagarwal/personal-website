@@ -14,6 +14,7 @@ export default function Rail({ profile, navItems, activeId }) {
               key={item.id}
               href={`#${item.id}`}
               className={activeId === item.id ? 'is-active' : undefined}
+              aria-current={activeId === item.id ? 'page' : undefined}
             >
               {item.label}
             </a>
