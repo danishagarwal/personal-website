@@ -22,6 +22,7 @@ export default function Rail({ profile, navItems, activeId }) {
         </nav>
       </div>
       <div className="rail-footer">
+        <p className="rail-footer-label">Connect</p>
         <a href={profile.resumeHref} download>
           Resume
         </a>

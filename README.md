@@ -12,4 +12,4 @@ Personal site: https://danishagarwal.github.io/personal-website/
     npm run build
     npm run preview
 
-GitHub Pages is deployed from `dist/` via `.github/workflows/pages.yml` on push to `main`. In the repo Settings → Pages, set Source to **GitHub Actions**.
+GitHub Pages is deployed from `dist/` via `.github/workflows/pages.yml` on push to `master`. In the repo Settings → Pages, set Source to **GitHub Actions**.

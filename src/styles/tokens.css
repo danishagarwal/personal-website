@@ -1,12 +1,54 @@
-:root {
-  --ink: #0b0d10;
-  --cream: #ece8e1;
+:root,
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #07080b;
+  --ink-2: #10131a;
+  --cream: #f3eee6;
   --mute: #9a958c;
-  --mute-2: #b8b3aa;
+  --mute-2: #c4bfb6;
   --line: #2a2d32;
-  --brass: #c9a227;
-  --serif: "Instrument Serif", Georgia, serif;
-  --sans: "DM Sans", system-ui, sans-serif;
-  --rail-width: 240px;
+  --brass: #e2b340;
+  --brass-soft: rgba(226, 179, 64, 0.16);
+  --cyan: #4ec8e0;
+  --rail-bg: rgba(7, 11, 16, 0.55);
+  --card-bg: rgba(16, 19, 26, 0.55);
+  --chip-bg: rgba(7, 8, 11, 0.55);
+  --project-bg: linear-gradient(180deg, rgba(22, 26, 34, 0.8), rgba(10, 12, 16, 0.9));
+  --atmosphere: radial-gradient(820px circle at var(--spot-x) var(--spot-y), rgba(226, 179, 64, 0.16), transparent 42%),
+    radial-gradient(980px circle at 88% 6%, rgba(78, 200, 224, 0.16), transparent 46%),
+    radial-gradient(720px circle at 8% 92%, rgba(90, 120, 255, 0.12), transparent 48%),
+    linear-gradient(165deg, #0c1522 0%, #070b12 46%, #0a0e14 100%);
+  --grid-a: rgba(78, 200, 224, 0.07);
+  --grid-b: rgba(226, 179, 64, 0.05);
+  --grid-dot: rgba(243, 238, 230, 0.18);
+  --display: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --rail-width: 17rem;
   --space: 1.5rem;
+  --spot-x: 40%;
+  --spot-y: 20%;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+  --ink: #f3efe6;
+  --ink-2: #fffdf8;
+  --cream: #1b1d21;
+  --mute: #6a6760;
+  --mute-2: #4a4843;
+  --line: #d8d2c6;
+  --brass: #8d5f0c;
+  --brass-soft: rgba(141, 95, 12, 0.16);
+  --cyan: #1a7c8c;
+  --rail-bg: rgba(255, 252, 246, 0.78);
+  --card-bg: rgba(255, 255, 255, 0.72);
+  --chip-bg: rgba(255, 252, 246, 0.9);
+  --project-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(247, 243, 234, 0.95));
+  --atmosphere: radial-gradient(820px circle at var(--spot-x) var(--spot-y), rgba(141, 95, 12, 0.12), transparent 42%),
+    radial-gradient(980px circle at 88% 6%, rgba(26, 124, 140, 0.12), transparent 46%),
+    radial-gradient(720px circle at 8% 92%, rgba(90, 120, 255, 0.08), transparent 48%),
+    linear-gradient(165deg, #f7f3ea 0%, #efe9dc 46%, #f4f0e6 100%);
+  --grid-a: rgba(26, 124, 140, 0.12);
+  --grid-b: rgba(141, 95, 12, 0.1);
+  --grid-dot: rgba(27, 29, 33, 0.12);
 }

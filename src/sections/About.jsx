@@ -1,9 +1,13 @@
+import SectionHeading from '../layout/sectionHeading.jsx';
+
 export default function About({ profile }) {
   return (
     <section className="section" id="about">
-      <p className="eyebrow">About</p>
+      <SectionHeading index="01">About</SectionHeading>
       <div className="about">
-        <img src={profile.photoSrc} alt={profile.photoAlt} />
+        <figure className="about-photo">
+          <img src={profile.photoSrc} alt={profile.photoAlt} />
+        </figure>
         <p>{profile.bio}</p>
       </div>
     </section>

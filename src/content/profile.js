@@ -4,9 +4,10 @@ export const profile = {
   firstName: 'Danish',
   lastName: 'Agarwal',
   role: 'Frontend Engineer 2',
-  headline: 'Software developer building clear, fast product UI.',
-  lede: 'ConnectWise · React, JavaScript, Python, SQL · IT engineering, D.Y. Patil (CGPA 8.54).',
-  bio: 'I am a software developer with experience in React, JavaScript, Python, and SQL. I studied IT engineering at D.Y. Patil University (CGPA 8.54) and currently work at ConnectWise as a Frontend Engineer 2. I like learning new tools and shipping in a fast-paced product environment.',
+  headline: 'I build product UI that feels fast.',
+  headlineAccent: 'fast',
+  lede: 'Frontend Engineer 2 at ConnectWise, with 5+ years building product UI. I care about the last 10% — the motion, the empty states, the thing you only notice when it’s missing.',
+  bio: 'I’m a frontend engineer with 5+ years of experience, currently Frontend Engineer 2 at ConnectWise. My work is React in real product surfaces: dense data, lots of interaction, and users who notice when a screen hitch. I don’t stop at “it renders.” I care about what re-renders, how much JavaScript we ship, and how the UI feels under load. I stay close to new tools, but I use them when they make the product faster or clearer — not because they’re new.',
   photoSrc: `${base}pic.jpg`,
   photoAlt: 'Portrait of Danish Agarwal',
   resumeHref: `${base}${encodeURIComponent("Danish Agarwal's Resume.pdf")}`,
@@ -17,6 +18,7 @@ export const profile = {
 
 export const navItems = [
   { id: 'about', label: 'About' },
+  { id: 'education', label: 'Education' },
   { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' }
