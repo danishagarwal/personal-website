@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ThemeToggle from './layout/ThemeToggle.jsx';
 import Rail from './layout/Rail.jsx';
 import Intro from './sections/Intro.jsx';

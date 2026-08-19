@@ -112,6 +112,23 @@ html[data-theme="light"] .atmosphere::after {
   backdrop-filter: blur(16px);
 }
 
+.rail-bar {
+  flex-shrink: 0;
+}
+
+.menu-toggle,
+.menu-backdrop {
+  display: none;
+}
+
+.rail-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  min-height: 0;
+}
+
 .rail-name {
   font-family: var(--display);
   font-size: clamp(1.85rem, 2.2vw, 2.35rem);
@@ -489,6 +506,10 @@ html[data-theme="light"] .atmosphere::after {
 }
 
 @media (max-width: 800px) {
+  body.menu-open {
+    overflow: hidden;
+  }
+
   .shell {
     flex-direction: column;
   }
@@ -503,32 +524,92 @@ html[data-theme="light"] .atmosphere::after {
     border-bottom: 1px solid var(--line);
     background: var(--rail-bg);
     z-index: 10;
-    justify-content: flex-start;
-    gap: 0;
+    display: block;
+  }
+
+  .rail-bar {
+    display: flex;
+    align-items: center;
+    min-height: 2.9rem;
+    padding-right: 7.4rem;
   }
 
   .rail-name {
-    font-size: 1.25rem;
-    display: inline;
+    font-size: 1.2rem;
+    line-height: 1.15;
+    min-width: 0;
   }
 
   .rail-name br {
     display: none;
   }
 
-  .rail-role {
-    display: none;
+  .menu-toggle {
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 1.15rem;
+    right: 4.7rem;
+    z-index: 20;
+    width: 2.9rem;
+    height: 2.9rem;
+    padding: 0;
+    border: 1px solid var(--brass);
+    background: var(--card-bg);
+    color: var(--brass);
+    box-shadow: 0 0 0 3px var(--brass-soft);
+    backdrop-filter: blur(12px);
+    cursor: pointer;
   }
 
+  .menu-toggle svg {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .menu-toggle:hover {
+    background: var(--brass);
+    color: var(--ink);
+  }
+
+  .menu-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 8;
+    border: 0;
+    padding: 0;
+    background: color-mix(in srgb, var(--ink) 55%, transparent);
+    cursor: pointer;
+  }
+
+  .rail-bar,
+  .rail-panel {
+    position: relative;
+    z-index: 9;
+  }
+
+  .rail-panel {
+    display: none;
+    flex: none;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.15rem 0 0.35rem;
+    pointer-events: auto;
+  }
+
+  .rail.is-open .rail-panel {
+    display: flex;
+  }
+
+  .rail-role,
   .rail-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.5rem 0.85rem;
-    margin-top: 0.5rem;
+    display: none;
   }
 
   .rail-footer {
-    display: none;
+    padding-top: 0;
   }
 
   .section {
